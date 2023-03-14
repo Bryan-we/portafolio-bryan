@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*INICIO ESTILOS MENU*/
+html {
+    scroll-behavior: smooth;
+}
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+main>section[id] {
+    padding-top: 65px;
+}
+.contenedor-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(93, 93, 253, 0.906);
+    color: white;
+    padding: 10px 0;
+}
+
+.contenedor-menu p {
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.lista-menu {
+    display: flex;
+    list-style: none;
+}
+
+.lista-menu li {
+    padding-right: 30px;
+}
+
+.lista-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.lista-menu a:hover {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,81,253,1) 72%);
+    padding: 22px 10px;
+    border-radius: 20px;
+    transition: all 0.4s;
+
+}
+/*FIN ESTILOS MENU*/
+
+/*INICIO ESTILOS INICIO*/
+.contenedor-inicio {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background: rgb(3,68,204);
+    background: linear-gradient(90deg, rgba(3,68,204,0.7987570028011204) 0%, rgba(36,33,228,0.6811099439775911) 37%, rgba(0,104,255,0) 71%);
+}
+
+.info-inicio h1 {
+    color:white;
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+
+.info-inicio p {
+    color: azure;
+    font-weight: 600;
+    text-align: end;
+    font-size: 20px;
+    padding-bottom: 45px;
+}
+
+.info-inicio a {
+    text-decoration: none;
+    background-color: rgb(17, 17, 167);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: bisque;
+}
+
+.img-inicio {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+/*FIN ESTILOS INICIO*/
+
+/*INICIO ESTILOS SBORE MI*/
+.contenedor-sobre-mi {
+    padding: 40px 0;
+    background-color: rgb(224, 218, 252);
+}
+.contenedor-sobre-mi h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.contenedor-sobre-mi span {
+    color: rgb(8, 0, 255);
+}
+
+.info-sobre-mi {
+    display: flex;
+    align-items: center;
+    padding: 0 60px 40px;
+}
+
+.info-sobre-mi p {
+    font-size: 20px;
+    padding-right: 90px;
+}
+
+.lista-sobre-mi {
+    padding: 60px 100px 60px 60px;
+    background-color: rgb(93, 93, 244);
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    text-align: center;
+    color: white;
+}
+
+.info-sobre-mi h3 {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.info-sobre-mi i {
+    font-size: 25px;
+    padding: 0 5px;
+}
+/*FIN ESTILOS SOBRE MI*/
+
+/*INICIO ESTILOS PROYECTOS*/
+.contenedor-proyectos {
+    padding: 40px 0;
+}
+.contenedor-proyectos h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+    font-weight: 800;
+}
+
+.contenedor-proyectos span {
+    color: rgb(8, 0, 255);
+}
+
+.caja-proyectos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.info-proyectos h3 {
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+.img-proyectos{
+    width: 500px;
+}
+
+.info-proyectos p {
+    padding: 20px 60px;
+    font-size: 20px;
+}
+
+.info-proyectos a{
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(86, 53, 252);
+}
+/*FIN ESTILOS PROYECTOS*/
+
+/*INICIO ESTILOS CONTRATOS*/
+
+h2 {
+    font-size: 25px;
+    color: aquamarine;
+    border: 10px;
+}
+.contenedor-contratos h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+    font-weight: 800;
+}
+
+.contenedor-contratos span {
+    color: rgb(8, 0, 255);
+}
+
+.caja-contratos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-contratos {
+    background-color: rgb(93, 93, 244);
+    padding: 25px;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+}
+.info-contratos h3 {
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.info-contratos i {
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+}
+/*FIN ESTILOS CONTRATOS*/
+
+/*INCIO ESTILOS CONTACTOS*/
+
+.formulario {
+    padding: 0 160px;
+    text-align: center;
+}
+
+.contenedor-contactos h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0;
+    font-weight: 800;
+}
+
+.contenedor-contactos span {
+    color: rgb(8, 0, 255);
+}
+
+fieldset {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(76,45,253,1) 100%);
+    padding: 20px 0;
+}
+
+fieldset h3 {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.contenedor-campos {
+    display: inline-grid;
+    justify-items: end;
+}
+
+.campo {
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.input-text {
+    height: 32px;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+
+.campo label {
+    padding-right: 10px;
+    font-size: 17px;
+}
+
+.general-boton {
+    padding-top: 20px;
+}
+.general-boton input {
+    font-size: 17px;
+    padding:  10px 40px;
+    border-radius: 10px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(76,45,253,0.4598214285714286) 72%);
+    cursor: pointer;
+}
+/*FIN ESTILOS CONTACTOS*/
+
+/*INICIO ESTILOS PIE DE PÁGINA*/
+.contenedor-footer {
+    margin-top: 40px;
+    padding: 30px 0;
+    background-color: rgb(63, 63, 82);
+    color: white;
+    align-items: center;
+}
+
+.logo-footer {
+    text-align: center;
+    font-size: 25px;
+}
+
+.redes-footer {
+    text-align: center;
+    padding: 10px 5px 0;
+    font-size: 35px;
+}
+
+.redes-footer i {
+    color: white;
+}
+/*INICIO ESTILOS PIE DE PÁGINA*/
